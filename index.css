@@ -1,0 +1,50 @@
+/* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> */
+
+    *{
+        box-sizing: border-box;
+        border: none;
+        margin: 0;
+    }
+    body{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        user-select: none;
+    }
+  .qrcodecontainer{
+    height: 500px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 5px 3px 5px 3px;
+    gap: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    
+  }
+  h3{
+    color: rgb(24, 23, 23);
+    font-size: 15px;
+
+  }
+  p{
+    color: gray;
+    font-size: 10px;
+  }
+    .qrcodecontainer img{
+        width: 260px;
+        height: 260px;
+        border-radius: 15px;
+    }
